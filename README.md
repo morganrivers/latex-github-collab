@@ -10,6 +10,6 @@ This repository is a copy of the [original latex-github-collab github template](
 # DELETE INSTRUCTIONS BELOW AFTER CLONING THIS TEMPLATE
 Steps to clone:
 1. Change `morganrivers/latex-github-collab` in the raw markdown url for the svg badge link above to whatever your username and repository name is.
-2. Navigate to Settings -> Actions -> general in the github menu and under "Workflow permissions", "Choose whether GitHub Actions can create pull requests or submit approving pull request reviews."
- - Check the box that says: "Allow GitHub Actions to create and approve pull requests"
-
+2. Navigate to Settings -> Actions -> general in the github menu and under "Workflow permissions", "Choose the default permissions granted to the GITHUB_TOKEN when running workflows in this repository. You can specify more granular permissions in the workflow using YAML. Learn more about managing permissions."
+ - Select the option that says: "Read and write permissions    Workflows have read and write permissions in the repository for all scopes."
+ - This is necessary for the github actions to write the paper pdf to the previews branch.
