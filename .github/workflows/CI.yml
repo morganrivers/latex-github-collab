@@ -17,28 +17,6 @@ env:
   TEXTIDOTE_URL: https://github.com/sylvainhalle/textidote/releases/download/v0.8.2/textidote_0.8.2_all.deb
 
 jobs:
-  UpdateReadme:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Set REPO_NAME environment variable
-      run: echo "REPO_NAME=${{ github.repository }}" >> $GITHUB_ENV
-
-    - name: Update README with correct repository URL
-      run: |
-        sed -i 's|{{REPO_NAME}}|${{ env.REPO_NAME }}|g' README.md
-
-    - name: Commit updated README
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add README.md
-        git commit -m 'Update README with correct repository URL'
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   SpellCheck:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'skip-ci')"
