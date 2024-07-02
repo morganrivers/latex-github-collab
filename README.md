@@ -1,1 +1,1 @@
-# [< Back to main branch](https://github.com/LKedward/latex-github-collab)
+# [< Back to main branch](.)
