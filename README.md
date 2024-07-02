@@ -1,5 +1,6 @@
+
 # [Latest paper version (Work in progress)](./blob/previews/master/paper.pdf)
-[![CI](https://github.com/{{REPO_NAME}}/actions/workflows/CI.yml/badge.svg)](https://github.com/{{REPO_NAME}}/actions/workflows/CI.yml) [[__View Paper Preview__](https://github.com/{{REPO_NAME}}/blob/previews/master/paper.pdf)]
+[![CI](https://github.com/morganrivers/latex-github-collab/actions/workflows/CI.yml/badge.svg)](./actions/workflows/CI.yml) [[__View Paper Preview__](./blob/previews/master/paper.pdf)]
 
 ## What's the deal with this repository?
 The point of this repository is to provide the latest version of my LaTeX papers to anyone who's interested. I'm trying to get better at putting my ideas and work out there in the world, and this is my current strategy. It's a form of [perpetual beta](https://en.wikipedia.org/wiki/Perpetual_beta).
