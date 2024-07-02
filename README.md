@@ -9,7 +9,10 @@ This repository is a copy of the [original latex-github-collab github template](
 
 # DELETE INSTRUCTIONS BELOW AFTER CLONING THIS TEMPLATE
 Steps to clone:
-1. Change `morganrivers/latex-github-collab` in the raw markdown url for the svg badge link above to whatever your username and repository name is.
-2. Navigate to Settings -> Actions -> general in the github menu and under "Workflow permissions", "Choose the default permissions granted to the GITHUB_TOKEN when running workflows in this repository. You can specify more granular permissions in the workflow using YAML. Learn more about managing permissions."
+1. Fix the readme SVG badge.
+   - In the raw markdown for this README.md, there is a url for the svg badge (a `![CI]` and then a github url).
+   - Change `morganrivers/latex-github-collab` in that link to whatever your new username and repository name is.
+2. Allow github actions to make pdfs in this repository.
+ - Navigate to Settings -> Actions -> general in the github menu above, scroll down to find "Workflow permissions" section.
  - Select the option that says: "Read and write permissions    Workflows have read and write permissions in the repository for all scopes."
  - This is necessary for the github actions to write the paper pdf to the previews branch.
