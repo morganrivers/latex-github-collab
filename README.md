@@ -6,3 +6,10 @@
 The point of this repository is to provide the latest version of my LaTeX papers to anyone who's interested. I'm trying to get better at putting my ideas and work out there in the world, and this is my current strategy. It's a form of [perpetual beta](https://en.wikipedia.org/wiki/Perpetual_beta).
 
 This repository is a copy of the [original latex-github-collab github template](https://github.com/LKedward/latex-github-collab) by Laurence Kedward, which is a github actions workflow based tool to render LaTeX documents on every push to the main branch.
+
+# DELETE INSTRUCTIONS BELOW AFTER CLONING THIS TEMPLATE
+Steps to clone:
+1. Change `morganrivers/latex-github-collab` in the raw markdown url for the svg badge link above to whatever your username and repository name is.
+2. Navigate to Settings -> Actions -> general in the github menu and under "Workflow permissions", "Choose whether GitHub Actions can create pull requests or submit approving pull request reviews."
+ - Check the box that says: "Allow GitHub Actions to create and approve pull requests"
+
